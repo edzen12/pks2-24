@@ -1,33 +1,33 @@
 a{
     text-decoration: none;
 }
-
+li{
+    list-style-type: none;
+}
+.sectionBig{
+    margin-left: 230px;
+    margin-right: 230px;
+}
 .soderjanie{
     border: 1px solid black; 
     width: 400px; 
     background-color: whitesmoke;
-    margin-left: 100px;
-    margin-right: 100px;
+    
 }
 .soderjanie li{
     font-size: 25px;
-}
-.textHome{
-    margin-left: 100px;
-    margin-right: 100px;
-}
+} 
 .textHome p{
     font-size: 25px;
 }
-.menu{
-    margin-left: 100px;
-    margin-right: 100px;
+.menu{ 
     padding-top: 5px;
     padding-bottom: 5px;
-    box-shadow: 0px 0px 25px 10px black;
+    box-shadow: 0px 0px 10px 2px black;
 }
 .menu ul{
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .menu li{
@@ -38,8 +38,9 @@ a{
     font-size: 25px;
 }
 .banner img{
-    height: 850px;
+    height: 810px;
     text-align: center;
+    box-shadow: 0px 0px 7px 2px black;
 }
 .banner{ 
     margin-top: 30px;
@@ -59,3 +60,39 @@ a{
     width: 400px;
     height: 400px;
 }
+.map{
+    margin-top: 100px;
+    text-align: center;
+}
+.map h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu img{
+    width: 220px;
+}
+.foot img {
+    width: 50px;
+}
+.pay img {
+    width: 80px;
+    margin-left: 10px;
+}
+.pay ul{
+    display: flex;
+}
+.foot{width: 50%;}
+.pay{width: 50%;}
+.foot p {
+   font-size: 25px;
+}
+.foot ul{
+    display: flex;
+}
+.foot li{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer{display: flex}
