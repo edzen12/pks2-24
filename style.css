@@ -116,3 +116,15 @@ footer{
     margin-left: 10px;
     margin-right: 10px;
 }
+.about p{
+    font-size: 25px;
+}
+.contacts{
+    margin-top: 100px;
+}
+.contacts input{
+    font-size: 25px;
+}
+.contacts button{
+    font-size: 25px;
+}
