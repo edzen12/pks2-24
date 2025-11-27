@@ -1,0 +1,238 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.sectionBig{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.soderjanie{
+    border: 1px solid black; 
+    width: 400px; 
+    background-color: whitesmoke;
+    
+}
+.soderjanie li{
+    font-size: 25px;
+} 
+.textHome p{
+    font-size: 25px;
+}
+.menu{ 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px black;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu li{
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.banner img{
+    height: 680px;
+    text-align: center;
+    box-shadow: 0px 0px 7px 2px black;
+}
+.banner{ 
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tours img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 3px 3px black;
+}
+.toursPage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 3px 3px black;
+}
+.imgTour{
+    height: 400px;
+}
+.tourH2{
+    text-align: center; 
+    font-size: 35px; 
+    margin-top: 100px; 
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.toursPage p{
+    font-size: 20px;
+}
+.toursPage{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.toursPage h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.tours p{
+    font-size: 20px;
+}
+.tours{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(rgba(155, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), 
+    url('https://gor-alp.ru/wa-data/public/blog/img/snaryazhenie-dlya-turizma1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.tours h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.cartTour{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+.cartTour a{
+    background: white;
+    color: green;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.cartTour a:hover{
+    background-color: rgb(66, 181, 148);  
+    color: white;
+}
+.map{
+    margin-top: 100px;
+    text-align: center;
+}
+.map h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu img{
+    width: 220px;
+}
+.footer {
+    margin-top: 80px;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-section {
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.phone {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 0;
+}
+
+.icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.icons img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+    transform: scale(1.05);
+} 
+
+.social{
+    width: 50%;
+    text-align: center;
+}
+.oplata{
+    width: 50%;
+    text-align: center;
+}
+.social img{
+    width: 50px;
+}
+.social ul{
+    display: flex
+}
+.social li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.oplata img{
+    width: 50px;
+}
+.oplata ul{
+    display: flex
+}
+.regions{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.regions img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.regions .tour{
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about p{
+    font-size: 25px;
+}
+.contacts{
+    margin-top: 100px;
+}
+.contacts input{
+    font-size: 25px;
+}
+.contacts button{
+    font-size: 25px;
+}
