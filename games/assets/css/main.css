@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.menu{ 
+    padding-left: 100px;
+    background-color: rgb(66, 66, 66);
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu input{
+    font-size: 20px;
+}
+/* head menu */
+.headMenu{
+    background-color: rgb(203, 221, 221);
+    padding-left: 100px;
+    display: flex;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 150px;
+}
+.headMenuLi ul{
+    display: flex;
+}
+.headMenuLi li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.headMenuButtons{
+    margin-top: 10px;
+}
+.headMenuButtons a{
+    color: white; 
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+.blueButton{
+    background-color: rgb(31, 145, 221);
+}
+.redButton{
+    background-color: rgb(231, 72, 40);
+}
