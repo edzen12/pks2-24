@@ -139,3 +139,42 @@ li{
 .blueReview{
     background-color: rgb(59, 192, 236); 
 }
+.containerReviews{
+    justify-content: center;
+    display: flex
+}
+.reviewCard{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(221, 221, 221);
+}
+.reviewCard .bgrev{
+    background-color: rgb(180, 179, 179);
+}
+.reviewCard img{
+    width: 100px;
+}
+/* footer */
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.bgBlackBlack img{
+    width: 350px;
+}
+.bgBlack{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(41, 41, 41);
+}
+.bgBlack p{
+    margin: 0;
+}
+.bgBlackBlack p{
+    margin: 0;
+}
+.bgBlackBlack{
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 20px;
+}
