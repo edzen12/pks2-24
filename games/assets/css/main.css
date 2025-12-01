@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: #ececec;
 }
 a{
     text-decoration: none;
@@ -96,4 +97,45 @@ li{
 }
 .salesCard a{
     color: white;
+}
+/*  */
+.schetLiniya{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cardSchet{
+    background-color: white;
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.cardSchet h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #aeadad;
+}
+.cardSchet p{
+    font-weight: bold;
+    color: #aeadad;
+    width: 180px;
+}
+/* reviews */
+.reviews{
+    text-align: center;
+    margin-top: 100px;
+}
+.reviews p{
+    font-weight: 700;
+}
+.buttonRev{
+    color: white;
+    padding: 3px;
+}
+.redReview{
+    background-color: red;
+}
+.blueReview{
+    background-color: rgb(59, 192, 236); 
 }
