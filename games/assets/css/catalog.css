@@ -114,3 +114,20 @@ color: rgb(100, 100, 100);;
 .myInput input{
     width: 20%;
 }
+/*  */
+.blockCardImage{
+    position: relative;
+    width: 300px
+}
+.overlayText {
+    position: absolute;
+    top: -3%;
+    left: -3%;
+    background-color: red;
+    color: white;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.blockCardImage img {
+    width: 100%;
+}
