@@ -1,0 +1,89 @@
+body{
+    background-image: url('https://steambuy.com/partner/img/background.png');
+    background-color: #498aca;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px; 
+    font-family: "Science Gothic", sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* menu */
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.header ul{
+    display: flex;
+    padding: 0;
+    margin-left: 45px;
+}
+.header li{
+    font-size: 12px;
+}
+.buttonsZarabotai{
+    display: flex;
+    margin-right: 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.redbuttonsZarabotai{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+}
+.bluebuttonsZarabotai{ 
+    background-color: rgb(52, 148, 250);
+    color: white; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* textSectionZarabotai */
+.section{
+    background-color: #F5F5F5;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.textSectionZarabotai{
+    text-align: center;
+    font-weight: 300;
+}
+.textSectionZarabotai span{
+    color: rgb(217, 54, 54);
+    font-size: 35px;
+}
+/* cardZarabotai */
+.thirdCardZarabotai{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    font-weight: 300;
+}
+.cardZarabotai{
+    justify-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(84, 83, 83);
+}
+.cardZarabotai h3{
+    font-weight: 400;
+}
+.imgcardZarabotai{
+    width: 130px;
+    display: block;
+}
+.cardZarabotai img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
