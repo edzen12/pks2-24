@@ -1,0 +1,26 @@
+.sliderGEnaShopy img{
+    height: 600px;
+    object-fit: cover;
+}
+.sliderGEnaShopy  .carousel-caption{
+    background-color: rgb(119, 211, 158);
+    border-radius: 20px;
+}
+/* cardProductMan */
+.cardProductMan img{
+    height: 250px;
+    object-fit: cover;
+}
+.blockFooter{
+    background-color: black;
+}
+/* sliderBlockProduct */
+.sliderBlockProduct img{
+    height: 600px;
+    object-fit: cover;
+}
+.col5BlockGena img{
+    width: 450px;
+     height: 300px;
+    object-fit: cover;
+}
