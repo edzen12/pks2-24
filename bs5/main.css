@@ -24,3 +24,41 @@
      height: 300px;
     object-fit: cover;
 }
+.sezonAct{
+    text-align: center;
+}
+.sezonAct img{
+    width: 100px;
+    height: 100px;
+}
+/*  */
+.imageSezon {
+    transition: transform 0.5s ease-in-out;
+}
+
+.sezonAct:hover .imageSezon {
+    transform: scaleX(-1); /* Переворот по горизонтали */
+}
+.imgBlock{
+    height: 250px;
+}
+.imgBlock img{
+    height: 100%;
+    object-fit: cover;
+}
+/* recomBlock */
+.recomBlock p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+.recomBlock a{
+    width: 100%;
+}
+.priceRecom{
+    font-size: 15px;
+}
+.textRecom{
+    font-size: 13px;
+}
+.dangerRecom{background-color: black; color: white;}
+.dangerRecom:hover{background-color: red; color: white;}
