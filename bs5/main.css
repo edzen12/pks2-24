@@ -62,3 +62,43 @@
 }
 .dangerRecom{background-color: black; color: white;}
 .dangerRecom:hover{background-color: red; color: white;}
+/* header */
+.header{
+    background-color: black;
+    color: white;
+}
+.header ul{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header li{
+    list-style-type: none;
+}
+.header img{
+    margin-top: -8px;
+    width: 30px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: rgb(72, 72, 72) ;
+}
+/* categoryGenskor */
+.categoryGenskor ul{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(239, 239, 239);
+}
+.categoryGenskor li{
+    list-style-type: none;
+}
+.categoryGenskor a{
+    color: black;
+    text-decoration: none;
+}
